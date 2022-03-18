@@ -1,8 +1,10 @@
 # Blockchain Governance - Templates for Protocol Proposals
 
+You can find in this repo templates for common Protocol Proposals that may be useful for all protocols. The template may be used as it is after filling the [...] and it may also be amended to fit special purposes.
+
 To use the Zero Carbon Emissions template, you will need to have determined:
 
-rNCT amount:
+NCT amount:
 
 1. the amount of tons of CO2 that you want to offset - [tCO2]. For simplicity, we recommend you to collect validators self reported emissions with a survey and use: (known validators emissions + worst validator emission x # unknown validators) x safety factor. Usually on Cosmos a large validator emission might be around 5-10t per year, on average closer to 1t. The safety factor might be 2x-10x depending on your estimation. A more detailed methodology has been presented in https://docs.google.com/document/d/1H-w4dBc1Svcmw_fzEKUFRgK_pga1qsGMHCTsUKUmWEA/edit?usp=sharing. We are working on providing simple tools for estimation.
 
@@ -16,7 +18,7 @@ Token amount:
 
 Execution:
 
-The Agent will send the [TOKEN]s for Regen and do the buy tx on Osmosis, retire the rNCT on Regen, and send the left over to the Community Pool. It might be a multisig.
+The Agent will send the [TOKEN]s for Regen and do the buy tx on Osmosis, retire the NCT on Regen, and send the left over to the Community Pool. It might be a multisig.
 
 5. a trusted Agent - [AGENT NAME] and their officiel Twitter handle [TWTR]
 
