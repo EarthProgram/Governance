@@ -1,6 +1,6 @@
 # Blockchain Governance - Templates for Protocol Proposals
 
-To use the Zero Carbon template, you will need to have determined:
+To use the Zero Carbon Emissions template, you will need to have determined:
 
 rNCT amount:
 
